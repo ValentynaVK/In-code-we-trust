@@ -1,62 +1,70 @@
-.mobile-menu-wrapper{
-    display: flex;
+.mobile-menu-wrapper {
+   display: flex;
     position: fixed;
     top: 0;
     left: 0;
     z-index: 9999999;
     width: 100%;
     height: 100%;
-    background-color: #fff;
+    background-color: #0E1823;
     transform: translate(100%);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  .mobile-menu-wrapper.is-open{
-    transform: translate(0%);
-  }
- .mobile-menu-close-btn{
-    background-color: transparent;
-    position: absolute;
-    top: 24px;
-    right: 16px;
-    border: none;
-    padding: 0;
-    line-height: 0;
-    width: 24px;
-    height: 24px;
-    border-radius: 50%;
-    background-color: #E7E9FC;
-    stroke-width: 1px;
-    stroke: rgba(0, 0, 0, 0.10);
- }
- 
- .mobile-menu-container{
-    width: 320px;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    padding-right: 24px;
-    padding-top: 72px;
-    padding-bottom: 40px;
+}
 
- }
- .mobile-contacts-wrapper{
-  margin-top: auto;
- }
- .mobile-menu-navigation{
-    margin-bottom: auto;
- }
- .mobile-menu{
-    display: flex;
-    flex-direction: column;
-    gap:40px;
- }
+.is-open {
+   transform: translate(0%);
 
-.mobile-menu-link{
-    color: #2E2F42;
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 1.1;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    text-decoration: none;
+}
+.mobile-menu-container {
+   max-width: 375px;
+   padding-top: 16px;
+   padding-left: 20px;
+   padding-right: 20px;
+   padding-bottom: 40px;
+   width: 335px;
+height: 42px;
+border-radius: 8px;
+border: 1px solid #FBFBFB;
+background: #FBFBFB;
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+.mobile-logo-link {
+   color: #1B414B;
+font-size: 14px;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -0.03em;
+padding-top: 12px;
+padding-bottom: 12px;
+}
+.mobile-menu-close-btn {
+   border: none;
+   background: transparent;
+   flex-shrink: 0;
+}
+
+.mobile-menu-close-btn-icon {
+}
+.mobile-menu-navigation {
+}
+.mobile-menu-list {
+}
+.mobile-menu-item {
+}
+.mobile-menu-link {
+}
+.nav-header {
+}
+.mobile-social-list {
+}
+.mobile-social-list-item {
+}
+.mobile-spcial-link {
+}
+.head-svg-network {
+}
+.head-svg-network-svg {
 }
