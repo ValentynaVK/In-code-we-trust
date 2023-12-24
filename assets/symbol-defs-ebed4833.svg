@@ -15,8 +15,9 @@
 <symbol id="icon-burger" viewBox="0 0 32 32">
 <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.8571" d="M4 20h24M4 12h24"></path>
 </symbol>
-<symbol id="icon-favicon" viewBox="0 0 52 32">
-<path fill="#fbfbfb" style="fill: var(--color1, #fbfbfb)" d="M1.074 2.38h5.076l7.738 13.465h0.318l7.738-13.465h5.076l-10.746 17.992v11.628h-4.455v-11.628l-10.746-17.992zM29.498 32h-4.744l10.659-29.62h5.163l10.659 29.62h-4.744l-8.374-24.24h-0.232l-8.388 24.24zM30.293 20.401h15.389v3.76h-15.389v-3.76z"></path>
+<symbol id="icon-favicon" viewBox="0 0 32 32">
+<path fill="#1b414b" style="fill: var(--color1, #1b414b)" d="M8 0h16c4.418 0 8 3.582 8 8v16c0 4.418-3.582 8-8 8h-16c-4.418 0-8-3.582-8-8v-16c0-4.418 3.582-8 8-8z"></path>
+<path fill="#fbfbfb" style="fill: var(--color2, #fbfbfb)" d="M7.369 10.818h1.745l2.66 4.628h0.109l2.66-4.628h1.745l-3.694 6.185v3.997h-1.531v-3.997l-3.694-6.185zM17.14 21h-1.631l3.664-10.182h1.775l3.664 10.182h-1.631l-2.878-8.332h-0.080l-2.884 8.332zM17.413 17.013h5.29v1.293h-5.29v-1.293z"></path>
 </symbol>
 
 </defs>
