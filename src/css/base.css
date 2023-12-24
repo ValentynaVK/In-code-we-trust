@@ -2,3 +2,6 @@ body{
     font-family: "Inter", sans-serif;
 background-color: #0E1823;
 }
+html {
+    scroll-behavior: smooth;
+}
