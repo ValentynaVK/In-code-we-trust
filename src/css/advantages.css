@@ -1,12 +1,11 @@
-@media screen and (min-width: 768) {}
+@media screen and (min-width: 768px) {}
 
-@media screen and (min-width: 1280) {}
+@media screen and (min-width: 1280px) {}
 
-@media screen and (max-width: 1280) {}
+@media screen and (max-width: 1280px) {}
 
 /* ========mobile======== */
-@media screen and (max-width: 767) {}
-
+@media screen and (max-width: 767px) {}
 .advant-section {
     background-color: #0E1823;
     padding: 80px 0;
@@ -54,7 +53,6 @@ li {
     line-height: 1.8;
 }
 
-.advant-list-item {}
 
 .advant-list-item::before {
     counter-increment: list;
@@ -100,6 +98,7 @@ li {
     margin-left: auto;
     margin-right: auto;
 }
+
 
 /* ============tablet============ */
 
