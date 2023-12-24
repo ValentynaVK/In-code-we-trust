@@ -32,11 +32,11 @@
     overflow: hidden;
 }
 
-ol {
+.advant-list {
     padding-top: 18px;
 }
 
-li {
+.advant-list-item {
     margin-bottom: 18px;
 }
 
