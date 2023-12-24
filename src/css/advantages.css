@@ -1,0 +1,164 @@
+@media screen and (min-width: 768px) {}
+
+@media screen and (min-width: 1280px) {}
+
+@media screen and (max-width: 1280px) {}
+
+/* ========mobile======== */
+@media screen and (max-width: 767px) {}
+.advant-section {
+    background-color: #0E1823;
+    padding: 80px 0;
+}
+
+.advant-conteiner {
+    display: flex;
+    max-width: 335px;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.advant-list {
+    padding-top: 18px;
+}
+
+.advant-list-item {
+    margin-bottom: 18px;
+}
+
+.advant-list {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin: 0 0 20px 0;
+    border-radius: 24px;
+    background-color: #1B414B;
+    padding: 80px 20px;
+    list-style-type: none;
+    counter-reset: list;
+    line-height: 1.8;
+}
+
+
+.advant-list-item::before {
+    counter-increment: list;
+    content: counter(list, decimal-leading-zero);
+    color: #FBFBFB;
+    font-family: 'Inter', sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: -0.05em;
+    display: flex;
+    margin-bottom: 18px;
+}
+
+.advant-paragraph {
+    color: #FBFBFB;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.16;
+    letter-spacing: -0.02em;
+    opacity: 0.8;
+}
+
+.advant-paragraph::before {
+    display: flex;
+    content: " ";
+    width: 295px;
+    height: 2px;
+    flex-shrink: 0;
+    border-radius: 18px;
+    background: rgba(251, 251, 251, 0.10);
+    margin-bottom: 18px;
+}
+
+.advent-photo {
+    width: 335px;
+    height: 424px;
+    background: url(<path-to-image>), lightgray -279.167px -3px / 245.174% 108.962% no-repeat;
+    flex-shrink: 0;
+    border-radius: 24px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* ============tablet============ */
+
+@media screen and (min-width: 768px) {
+    .advant-conteiner {
+        width: 704px;
+        max-width: 768px;
+
+    }
+
+    .advant-list {
+        flex-wrap: wrap;
+        display: flex;
+        gap: 44px 32px;
+        flex-direction: unset;
+    }
+
+    .advant-list-item {
+        width: 304px;
+    }
+
+    .advant-paragraph {
+        width: 292px;
+        text-align: left;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 1.15;
+        letter-spacing: -0.02em;
+        opacity: 0.8;
+    }
+
+    .advent-photo {
+        width: 704px;
+        height: 424px;
+    }
+
+}
+
+/* ==========desktop========== */
+
+@media screen and (min-width: 1280px) {
+    .advant-conteiner {
+        margin: 0 auto;
+        width: 716px;
+    }
+
+    .advent-picture {
+        max-width: 1280px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        margin: 0 auto;
+        gap: 32px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .advent-photo {
+        width: 432px;
+        height: 424px;
+        margin: 0 auto;
+    }
+}
