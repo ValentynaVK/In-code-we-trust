@@ -141,13 +141,16 @@ li {
 
 @media screen and (min-width: 1280px) {
     .advant-conteiner {
-        max-width: 1280px;
+        margin: 0 auto;
         width: 716px;
     }
 
     .advent-picture {
-        display: inline-flex;
+        max-width: 1280px;
+        display: flex;
         align-items: flex-start;
+        justify-content: center;
+        margin: 0 auto;
         gap: 32px;
         padding-left: 50px;
         padding-right: 50px;
@@ -156,7 +159,6 @@ li {
     .advent-photo {
         width: 432px;
         height: 424px;
+        margin: 0 auto;
     }
-
-
 }
