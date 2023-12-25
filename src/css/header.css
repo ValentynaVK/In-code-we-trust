@@ -4,13 +4,22 @@
 /* ============  MOBILE STYLES HEADER =========== */
 .head {
   max-width: 375px;
-}
 
+}
+.head-container{
+  width: 100%;
+  padding-top: 20px;
+ padding-right: 20px;
+ padding-left: 20px;
+ margin-left: auto;
+margin-right: auto;
+ 
+}
 .head-container-page {
   display: flex;
   align-items: center; 
    justify-content: space-between;
-   margin:0 auto;
+
 }
 
 .head-nav {
@@ -21,7 +30,7 @@
   background: #FBFBFB;
   width: 335px;
   height: 42px;
-  margin: 20px 20px 198px 20px;
+  margin:auto;
   justify-content: space-between;
 }
 
@@ -67,11 +76,15 @@
   .head {
     max-width: 768px;
   }
-
+  .head-container{
+    width: 100%;
+    padding-top: 32px;
+    padding-right: 32px;
+    padding-left: 32px;
+  }
   .head-nav {
     width: 704px;
     height: 48px;
-    margin: 32px 32px 200px 32px;
     justify-content: space-between;
 
   }
@@ -149,12 +162,15 @@
   .head {
     max-width: 1280px;
   }
-
+  .head-container{
+    width: 100%;
+    padding-top: 32px;
+    padding-right: 100px;
+    padding-left: 100px;
+  }
   .head-nav {
     width: 1080px;
     height: 48px;
-    margin: 32px 100px 155px 100px;
-
   }
   .head-logo-logo {
     padding: 12px 0 12px 30px;
@@ -163,6 +179,6 @@
     padding: 12px 30px 12px 0;
     gap: 8px;
   }
-  
+      
 }
-/* ============  /DESKTOP STYLES HEADER =========== */
+ /* ============  /DESKTOP STYLES HEADER =========== */
