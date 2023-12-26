@@ -1,5 +1,9 @@
 .head{
   position: absolute;
+  left:0; 
+  right: 0;
+  margin: 0 auto;
+  max-width: 1440px;
 }
 /* ============  MOBILE STYLES HEADER =========== */
 .head {
@@ -7,7 +11,7 @@
 
 }
 .head-container{
-  width: 320px;
+  width: 375px;
   padding-top: 20px;
  padding-right: 20px;
  padding-left: 20px;
@@ -161,6 +165,7 @@ margin-right: auto;
 
   .head {
     max-width: 1280px;
+    margin: 0 auto;
   }
   .head-container{
     width: 1280px;
