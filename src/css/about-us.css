@@ -2,6 +2,8 @@
 /* Mobile */
 .section_about_us {
     padding-bottom: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .container_about {
     position: relative;
@@ -25,7 +27,7 @@
 }
 
 .about_title {
-    width: 295px;
+    width: 100%;
     color: #1B414B;
     font-family: Inter;
     font-size: 28px;
@@ -36,6 +38,8 @@
 }
 
 .about_description {
+
+    width: 100%;
     height: 210px;
     display: flex;
     flex-direction: column;
@@ -46,7 +50,7 @@
     text-align: left;
 
 
-    width: 295px;
+    width: 100%;
     color: #1B414B;
     font-family: Inter;
     font-size: 18px;
@@ -59,7 +63,7 @@
 .about_description_text {
     opacity: 0.4;
 
-    width: 295px;
+    width: 100%;
     color: #040306;
     font-family: Inter;
     font-size: 12px;
@@ -72,12 +76,29 @@
 .img_about {
     position: absolute;
     left: auto; 
-    top: 360px;
+    bottom: 0px;
+    width: 100%;
     object-fit: cover; 
     flex-shrink: 0;
     border-radius: 24px;
 }
 
+@media screen and (min-width: 375px) 
+{
+    .about_us_text {
+        width: 335px;
+    }
+
+    .about_title, 
+    .about_description, 
+    .about_description_title,
+    .about_description_text{
+        width: 295px;
+    }
+
+
+
+}
 /* Tablet */
 @media screen and (min-width: 768px) {
 
