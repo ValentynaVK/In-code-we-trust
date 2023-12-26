@@ -148,7 +148,7 @@
 
 @media only screen and (max-width: 374px) {
     .sized-content-of-footer {
-        max-width: 320px;
+       width: 320px;
         text-align: center;
     }
 
@@ -167,7 +167,7 @@
 }
 
 
-@media only screen and (max-width: 765px) and (min-width: 375px) {
+@media only screen and (min-width: 375px) and (max-width: 765px) {
     .footer-menu-link {
         padding-left: 30px;
         padding-right: 30px;
@@ -189,14 +189,15 @@
 
 @media only screen and (min-width: 768px) {
     .main-footer {
-        margin-left: 16px;
-        margin-right: 16px;
-        min-width: 768px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 16px;
+        padding-right: 16px;
+    
+        width: 736px;
     }
 
-    .footer-menu-link {
-        min-width: 648px;
-    }
+  
 
     .footer-social-link {
         margin-top: 0;
@@ -257,8 +258,9 @@
 
 @media only screen and (min-width: 1280px) {
     .main-footer {
-        margin-left: 25px;
-        margin-right: 25px;
+      padding-left: 25px;
+      padding-right: 25px;
+      width: 1230px;
     }
 
     .footer-menu-link {
