@@ -1,3 +1,4 @@
+
 .main-footer {
     margin-left: 10px;
     margin-right: 10px;
@@ -23,7 +24,7 @@
 
 .link-menu {
     display: flex;
-    margin-left: 37px;
+    margin-left: auto;
     align-items: center;
 }
 
@@ -148,7 +149,7 @@
 
 @media only screen and (max-width: 374px) {
     .sized-content-of-footer {
-       width: 320px;
+       max-width: 355px;
         text-align: center;
     }
 
