@@ -36,7 +36,6 @@
 }
 
 .about_description {
-    width: 354px;
     height: 210px;
     display: flex;
     flex-direction: column;
