@@ -1,18 +1,32 @@
-.hed{
+.head{
   position: absolute;
+  left:0; 
+  right: 0;
+  margin: 0 auto;
+  max-width: 1440px;
 }
 /* ============  MOBILE STYLES HEADER =========== */
-.hed {
+.head {
   max-width: 375px;
-}
 
-.hed-container-page {
+}
+.head-container{
+width: 100%;
+  padding-top: 20px;
+ padding-right: 20px;
+ padding-left: 20px;
+ margin-left: auto;
+margin-right: auto;
+ 
+}
+.head-container-page {
   display: flex;
   align-items: center; 
    justify-content: space-between;
+
 }
 
-.hed-nav {
+.head-nav {
   display: flex;
   align-items: center;
   border-radius: 8px;
@@ -20,15 +34,15 @@
   background: #FBFBFB;
   width: 335px;
   height: 42px;
-  margin: 20px 20px 198px 20px;
+  margin:auto;
   justify-content: space-between;
 }
 
-.hed-logo-logo {
+.head-logo-logo {
   padding: 12px 0 12px 20px;
 }
 
-.hed-logo {
+.head-logo {
   color: #1B414B;
   font-family: 'Inter', sans-serif;
   font-size: 14px;
@@ -37,11 +51,11 @@
   letter-spacing: -0.03em;
 }
 
-.hed-list {
+.head-list {
   display: none;
 }
 
-.hed-svg {
+.head-svg {
   display: none;
 }
 
@@ -63,22 +77,26 @@
 /* ============  TABLET STYLES HEADER =========== */
 @media screen and (min-width:768px) {
 
-  .hed {
+  .head {
     max-width: 768px;
   }
-
-  .hed-nav {
+  .head-container{
+    width: 768px;
+    padding-top: 32px;
+    padding-right: 32px;
+    padding-left: 32px;
+  }
+  .head-nav {
     width: 704px;
     height: 48px;
-    margin: 32px 32px 200px 32px;
     justify-content: space-between;
 
   }
-  .hed-logo-logo {
+  .head-logo-logo {
     padding: 12px 0 12px 28px;
   }
 
-  .hed-logo {
+  .head-logo {
     color: #1B414B;
     font-family: 'Inter', sans-serif;
     font-size: 20px;
@@ -87,14 +105,14 @@
     letter-spacing: -0.03em;
   }
 
-  .hed-list {
+  .head-list {
     display: flex;
     gap: 4px;
     padding-top: 4px;
     padding-bottom: 4px;
   }
 
-  .hed-list-nav-a {
+  .head-list-nav-a {
     display: block;
     text-align: center;
     padding: 15px 25px;
@@ -108,7 +126,7 @@
 
   }
 
-  .hed-list-nav {
+  .head-list-nav {
     border-radius: 8px;
     background: rgba(27, 65, 75, 0.50);
     width: 91px;
@@ -117,7 +135,7 @@
   
   }
 
-  .hed-list-nav:first-child {
+  .head-list-nav:hover {
     background-color: #1B414B;
   }
 
@@ -125,17 +143,17 @@
     display: none;
   }
 
-  .hed-svg-network {
+  .head-svg-network {
     fill: #1B414B;
   }
-  .hed-svg{
+  .head-svg{
     display: flex;
     padding: 12px 28px 12px 0;
     gap:8px;
 
   
   }
-  .hed-svg-network-li{
+  .head-svg-network-li{
     line-height: 0;
   }
 }
@@ -145,23 +163,27 @@
 /* ============  DESKTOP STYLES HEADER =========== */
 @media screen and (min-width:1280px) {
 
-  .hed {
+  .head {
     max-width: 1280px;
+    margin: 0 auto;
   }
-
-  .hed-nav {
+  .head-container{
+    width: 1280px;
+    padding-top: 32px;
+    padding-right: 100px;
+    padding-left: 100px;
+  }
+  .head-nav {
     width: 1080px;
     height: 48px;
-    margin: 32px 100px 155px 100px;
-
   }
-  .hed-logo-logo {
+  .head-logo-logo {
     padding: 12px 0 12px 30px;
   }
-  .hed-svg {
+  .head-svg {
     padding: 12px 30px 12px 0;
     gap: 8px;
   }
-  
+      
 }
-/* ============  /DESKTOP STYLES HEADER =========== */
+ /* ============  /DESKTOP STYLES HEADER =========== */
