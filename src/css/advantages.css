@@ -8,7 +8,9 @@
 @media screen and (max-width: 767px) {}
 .advant-section {
     background-color: #0E1823;
-    padding: 80px 0;
+    padding-left: 20px;
+    padding-right: 20px;
+
 }
 
 .advant-conteiner {
@@ -81,7 +83,7 @@
 .advant-paragraph::before {
     display: flex;
     content: " ";
-    width: 295px;
+    width: 100%;
     height: 2px;
     flex-shrink: 0;
     border-radius: 18px;
