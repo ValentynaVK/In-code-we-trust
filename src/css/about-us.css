@@ -75,12 +75,29 @@
 .img_about {
     position: absolute;
     left: auto; 
-    top: 360px;
+    bottom: 0px;
+    width: 100%;
     object-fit: cover; 
     flex-shrink: 0;
     border-radius: 24px;
 }
 
+@media screen and (min-width: 375px) 
+{
+    .about_us_text {
+        width: 335px;
+    }
+
+    .about_title, 
+    .about_description, 
+    .about_description_title,
+    .about_description_text{
+        width: 295px;
+    }
+
+
+
+}
 /* Tablet */
 @media screen and (min-width: 768px) {
 
