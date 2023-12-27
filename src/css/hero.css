@@ -4,7 +4,7 @@
     padding-top: 198px;
     padding-bottom: 243px;
     text-align: center;
-    background-image: url("./img/mob/hero@1x.webp");
+    background-image: url("../img/mob/hero@1x.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -68,7 +68,7 @@
 screen and (min-resolution: 2dppx) and (max-width: 767px),
 screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
     .hero-section {
-        background-image: url("./img/mob/hero@2x.webp");
+        background-image: url("../img/mob/hero@2x.webp");
     }
 }
 
@@ -76,7 +76,7 @@ screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
 
 @media screen and (min-width: 768px) {
     .hero-section {
-        background-image: url("./img/tablet/hero-tab@1x.webp");
+        background-image: url("../img/tablet/hero-tab@1x.webp");
         background-color: darkgray;
         text-align: center;
         background-repeat: no-repeat;
@@ -131,7 +131,7 @@ screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
 screen and (min-resolution: 2dppx) and (min-width: 768px),
 screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
     .hero-section {
-        background-image: url("./img/tablet/hero-tab@2x.webp");
+        background-image: url("../img/tablet/hero-tab@2x.webp");
     }
 }
 
@@ -139,7 +139,7 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
 
 @media screen and (min-width: 1280px) {
     .hero-section {
-        background-image: url("./img/desktop/hero-desk@1x.webp");
+        background-image: url("../img/desktop/hero-desk@1x.webp");
         background-color: darkgray;
         text-align: center;
         background-repeat: no-repeat;
@@ -182,6 +182,6 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
 screen and (min-resolution: 2dppx) and (min-width: 1280px),
 screen and (min-device-pixel-ratio: 2) and (min-width: 1280px) {
     .hero-section {
-        background-image: url("./img/desktop/hero-desk@2x.webp");
+        background-image: url("../img/desktop/hero-desk@2x.webp");
     }
 }
