@@ -35,7 +35,7 @@
 }
 
 .our-yachts-title {
-  width: 270px;
+  width: 319px;
   text-align: center;
   font-size: 28px;
   font-style: normal;
@@ -50,7 +50,7 @@
 
 @media screen and (min-width: 768px) {
   .our-yachts-title {
-    width: 525px;
+    width: 645px;
     font-size: 48px;
     margin-bottom: 75px;
   }
@@ -58,7 +58,7 @@
 
 @media screen and (min-width: 1280px) {
   .our-yachts-title {
-    width: 550px;
+    width: 714px;
   }
 }
 
